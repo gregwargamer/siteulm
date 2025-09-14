@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
+
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-primary">
   <div class="container-fluid">
@@ -31,6 +32,7 @@
     </div>
   </div>
 </nav>
+
 <main>
   <section class="hero-section">
     <img src="images/avionhq.jpg" alt="avion à hélice">
@@ -38,6 +40,9 @@
       <h1 class="hero-title">Association Aéro Club de Frotey les Lures</h1>
     </div>
   </section>
+
+  <!-- Widget météo -->
+  <a class="weatherwidget-io" href="https://forecast7.com/fr/47d656d55/frotey-les-lure/" data-label_1="FROTEY-LÈS-LURE"  data-theme="original" data-basecolor="#719CBD">FROTEY-LÈS-LURE</a>
 
   <!-- Section catégories ULM -->
   <section class="py-5">
@@ -90,8 +95,10 @@
       </div>
     </div>
   </section>
-</main>
-<section class="contact-section py-5">
+  </main>
+
+  <!-- info contact tout ca -->
+  <section class="contact-section py-5">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -148,6 +155,7 @@
   </div>
 </section>
 
+<!-- footer -->
 <footer class="bg-dark text-light py-4">
   <div class="container">
     <div class="footer-content text-center">
@@ -168,5 +176,11 @@
   </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<!-- script météo -->
+<script>
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+  </script>
+
 </body>
 </html>
