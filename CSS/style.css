@@ -140,3 +140,9 @@
     font-size: 0.9rem;
     opacity: 0.8;
 }
+
+.nous-offrons-section .list-group-item i {
+    color: #007bff;
+    margin-right: 0.3em;
+    font-size: 1.1em;
+}
